@@ -21,10 +21,10 @@ Notes regarding motherboard power design choices and specs.
 
 - Current Draw
   - most RC car LiPo batteries are capable of providing high current
-  - w/ rough math, we find that we need at least 6A to comfortably drive the micromouse
+  - w/ rough math, we find that we need at least 7A to comfortably drive the micromouse
   - LiPo batteries' capacity multiplier tells us how much current the battery can safely discharge continuously
   - 900 mAh 30C means 27A max current draw
-  - 900 mAh at 6A current draw means 9 minutes of activity
+  - 900 mAh at 7A current draw means 7.7 minutes of activity
 - Rocker Switch
   - many rocker switches don't provide DC current limits when current you're dealing w/ is high...
   - we're going for a switch that safely operates w/ 15A AC, and hoping that it's sufficient
@@ -47,8 +47,8 @@ total current dischargeable calculation:
 
 
 micromouse active time calculation:
-900 mAh, 6A draw max
-0.9Ah / 6A = 9 minutes
+900 mAh, 7A draw max
+0.9Ah / 7A = 7.7 minutes
 
 ```
 
