@@ -2,7 +2,7 @@
 Notes regarding motherboard design choices and hardware specs.
 
 ## Component Overview
-![motherboard-components](motherboard-overview-images/motherboard-components.drawio.png)
+![motherboard-components](overview-images/motherboard-components.drawio.png)
 
 1. Power Supply
     - JST Connector to 7V4 LiPo Battery
