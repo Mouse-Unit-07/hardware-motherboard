@@ -2,6 +2,15 @@
 
 - Notes regarding motherboard vacuum design choices and specs
 
+## Index
+
+- [Motor Selection](#motor-selection)
+- [Switching Circuit](#switching-circuit)
+- [Electrical Protection](#electrical-protection)
+- [Impeller Fan Design](#impeller-fan-design)
+- [Rough Mechanical Calculations](#rough-mechanical-calculations)
+- [Archived Ideas](#archived-ideas)
+
 ## Motor Selection
 
 - 8520 DC motor
