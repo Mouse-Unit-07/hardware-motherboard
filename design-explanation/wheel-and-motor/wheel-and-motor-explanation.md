@@ -25,6 +25,12 @@
   - The key is to design wheels w/ gears on them
   - More details in mechanical design guide
 
+## Wheel Bearing Spacers
+
+- ![ball-bearing](_images/wheel-and-motor-explanation/ball-bearing.png)
+- Needed to prevent outer ring of ball-bearings from touching 3D printed mounts and screw heads
+- Crucial that they're made of metal- tried to 3D print spacers, but they eventually mold into the shapes of the parts they're spaced between
+
 ## Drive Circuit
 
 - Big h-bridge IC
