@@ -1,8 +1,9 @@
 # Hardware Motherboard
-Hardware reference files for the motherboard of Mouse Unit 07.
+
+- Hardware reference files for the micromouse motherboard
 - Includes:
-    - schematic pdf
-    - layout pdf
-    - mechanical drawing pdf
-    - 3D object files that mount to the motherboard
-    - design explanation documents
+  - Schematic pdf's
+  - Layout pdf's
+  - Mechanical drawing pdf's
+  - 3D model files for motherboard mounts, etc
+  - Design explanation documentation
