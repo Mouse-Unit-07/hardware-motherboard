@@ -2,7 +2,14 @@
 
 - Notes regarding motherboard IR sensor design choices and specs
 
-## SHARP GP2Y0A51SK0F
+## Index
+
+- [Selection: SHARP GP2Y0A51SK0F](#selection-sharp-gp2y0a51sk0f)
+- [Voltage Divider](#voltage-divider)
+- [SHARP Sensor Output Graph Extracted](#sharp-sensor-output-graph-extracted)
+- [Archived Ideas](#archived-ideas)
+
+## Selection: SHARP GP2Y0A51SK0F
 
 - The GP2Y0A51SK0F sensor is SHARP's shortest distance IR sensor
 - Pros:

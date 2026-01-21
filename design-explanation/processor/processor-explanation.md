@@ -2,7 +2,14 @@
 
 - Notes regarding motherboard processor design choices and specs
 
-## AT32UC3L0256
+## Index
+
+- [Selection: AT32UC3L0256](#selection-at32uc3l0256)
+- [Programming](#programming)
+- [USART](#usart)
+- [Archived Ideas](#archived-ideas)
+
+## Selection: AT32UC3L0256
 
 - Atmel's 32-bit MCU
   - Advertised to run at 50MHz, but we're seeing that it runs at 35MHz w/ DFLL

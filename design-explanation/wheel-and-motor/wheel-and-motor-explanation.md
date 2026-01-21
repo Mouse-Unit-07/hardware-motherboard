@@ -2,7 +2,17 @@
 
 - Notes regarding motherboard wheel and motor design choices and specs
 
-## ServoCity's Premium N20 Gear Motor
+## Index
+
+- [Selection: ServoCity's Premium N20 Gear Motor](#selection-servocitys-premium-n20-gear-motor)
+- [4 Wheel Drive](#4-wheel-drive)
+- [Wheel Bearing Spacers](#wheel-bearing-spacers)
+- [Drive Circuit](#drive-circuit)
+- [Electrical Protection](#electrical-protection)
+- [Mechanical Micromouse Specs](#mechanical-micromouse-specs)
+- [Rough Mechanical Calculations](#rough-mechanical-calculations)
+
+## Selection: ServoCity's Premium N20 Gear Motor
 
 - ServoCity's [Premium N20 Gear Motor (5:1 Ratio, 4900 RPM, with Encoder)](https://www.servocity.com/4900-rpm-micro-gear-motor-w-encoder/)
 - Magnetic encoder integrated into the motor
