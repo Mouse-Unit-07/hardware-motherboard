@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
   <diagram name="Page-1" id="d1zT9DEmQvN7z1CDaR8z">
-    <mxGraphModel dx="868" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-19" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;spacing=0;" target="nmQpP1vsMqfAlMOqg_ZM-13">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-19" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#660000);" target="nmQpP1vsMqfAlMOqg_ZM-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="220" />
@@ -12,31 +12,31 @@
             <mxPoint x="80" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;spacing=0;fontSize=6;fillColor=light-dark(#FFFFFF,#999999);" value="&lt;font&gt;2S LiPo Battery&lt;br&gt;&lt;font&gt;7.4V, 27A (&lt;/font&gt;&lt;/font&gt;&lt;font&gt;30C 900mAh&lt;/font&gt;&lt;font&gt;&lt;font&gt;)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;spacing=0;fontSize=6;fillColor=#FFFFFF;strokeColor=light-dark(#000000,#660000);" value="&lt;font&gt;2S LiPo Battery&lt;br&gt;&lt;font&gt;7.4V, 27A (&lt;/font&gt;&lt;/font&gt;&lt;font&gt;30C 900mAh&lt;/font&gt;&lt;font&gt;&lt;font&gt;)&lt;/font&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="40" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-26" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nmQpP1vsMqfAlMOqg_ZM-14">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-26" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#CC6600);" target="nmQpP1vsMqfAlMOqg_ZM-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#006600);" value="&lt;div&gt;TPS62172DSGR&lt;/div&gt;&lt;div&gt;3V3 0.5A DCDC Regulator&lt;/div&gt;" vertex="1">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#CC6600);" value="&lt;div&gt;TPS62172DSGR&lt;/div&gt;&lt;div&gt;3V3 0.5A DCDC Regulator&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="200" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-29" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nmQpP1vsMqfAlMOqg_ZM-17">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-29" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#CC6600);" target="nmQpP1vsMqfAlMOqg_ZM-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#006600);" value="&lt;div&gt;&lt;div&gt;TPS61288RQQR&lt;/div&gt;&lt;div&gt;12V 3A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#CC6600);" value="&lt;div&gt;&lt;div&gt;TPS61288RQQR&lt;/div&gt;&lt;div&gt;12V 3A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="200" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-28" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nmQpP1vsMqfAlMOqg_ZM-15">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-28" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#CC6600);" target="nmQpP1vsMqfAlMOqg_ZM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#006600);" value="&lt;div&gt;&lt;div&gt;TPSM84209RKHR&lt;/div&gt;&lt;div&gt;3V7 2A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#CC6600);" value="&lt;div&gt;&lt;div&gt;TPSM84209RKHR&lt;/div&gt;&lt;div&gt;3V7 2A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="200" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-27" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nmQpP1vsMqfAlMOqg_ZM-16">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-27" edge="1" parent="1" source="nmQpP1vsMqfAlMOqg_ZM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#CC6600);" target="nmQpP1vsMqfAlMOqg_ZM-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#006600);" value="&lt;div&gt;&lt;div&gt;TPS62173DSGR&lt;/div&gt;&lt;div&gt;5V 0.5A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#CC6600);" value="&lt;div&gt;&lt;div&gt;TPS62173DSGR&lt;/div&gt;&lt;div&gt;5V 0.5A DCDC Regulator&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="200" y="200" as="geometry" />
         </mxCell>
         <mxCell id="nmQpP1vsMqfAlMOqg_ZM-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;spacing=0;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;AT32UC3L0256 MCU&lt;/div&gt;&lt;div&gt;~0.071A Max&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -54,7 +54,7 @@
         <mxCell id="nmQpP1vsMqfAlMOqg_ZM-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;spacing=0;" value="&lt;div&gt;&lt;div&gt;TLV9301 as Comparator&lt;/div&gt;&lt;div&gt;~0.15mA Max&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="360" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;" target="nmQpP1vsMqfAlMOqg_ZM-5" value="">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#660000);" target="nmQpP1vsMqfAlMOqg_ZM-5" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="140" />
@@ -63,7 +63,7 @@
             <mxPoint x="150" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;" target="nmQpP1vsMqfAlMOqg_ZM-12" value="">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#660000);" target="nmQpP1vsMqfAlMOqg_ZM-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="300" />
@@ -72,7 +72,7 @@
             <mxPoint x="150" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;" target="nmQpP1vsMqfAlMOqg_ZM-11" value="">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;spacing=0;strokeColor=light-dark(#000000,#660000);" target="nmQpP1vsMqfAlMOqg_ZM-11" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="380" />
@@ -81,7 +81,7 @@
             <mxPoint x="160" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nmQpP1vsMqfAlMOqg_ZM-18" value="">
+        <mxCell id="nmQpP1vsMqfAlMOqg_ZM-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#CC6600);" target="nmQpP1vsMqfAlMOqg_ZM-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="460" />
@@ -89,6 +89,12 @@
             <mxPoint x="320" y="380" as="sourcePoint" />
             <mxPoint x="330" y="470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vcYMJxmCItoifNrEc6ZN-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Micromouse Power Tree&lt;/h1&gt;&lt;p&gt;A simple high-level power tree diagram for the micromouse bot&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="360" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcYMJxmCItoifNrEc6ZN-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;div style=&quot;line-height: 100%; margin-bottom: 5px;&quot;&gt;&lt;b&gt;&lt;u&gt;Key&lt;/u&gt;&lt;/b&gt;:&lt;/div&gt;&lt;div style=&quot;line-height: 100%; padding-bottom: 2px; margin-bottom: 2px;&quot;&gt;&lt;div style=&quot;line-height: 100%; margin-bottom: 3px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 0));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 0));&quot;&gt;Red&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;: Power&lt;/div&gt;&lt;div style=&quot;line-height: 100%; margin-bottom: 3px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 102, 0));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 102, 0));&quot;&gt;Orange&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;: Regulated Power&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="40" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
