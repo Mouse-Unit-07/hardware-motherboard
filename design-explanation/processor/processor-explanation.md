@@ -25,6 +25,37 @@
 
 - Serial out can be provided to a laptop via DE-9 to USB-A cable, and a TTL to RS232 translator
 
+## Configuration Pushbutton
+
+- Pushbutton for any user requests
+- Debounced w/ full debounce circuit
+
+```
+
+given:
+- ~50ms debounce
+- 100k resistors
+- AT32UC3L0256 MCU logic levels of 0.3*Vdd for input low max, 0.7*Vdd for input high min
+- 0.7V drop on diode
+
+press:
+V(t) = Vdd * e^(-t/r2c)
+t = -r2c * ln(Vinput_low_max / Vdd)
+Vinput_low_max = 0.3 * Vdd = 0.99V
+50ms = -100k * c * ln(0.3)
+c = 0.415uF
+
+release:
+V(t) = (Vdd - Vdiode) * (1 - e^(-t/r1c))
+t = -r1c * ln(1 - (Vinput_high_max / (Vdd - Vdiode)))
+Vinput_high_max = 0.7 * Vdd = 2.31V
+50ms = -100k * c * ln(1 - (2.31 / (3.3 - 0.7)))
+c = 0.228uF
+
+we'll go w/ the higher capacitor value and go for 0.47uF
+
+```
+
 ## Archived Ideas
 
 - 1mm pitch 10 pin header for programming

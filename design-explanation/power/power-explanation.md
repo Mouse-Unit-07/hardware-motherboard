@@ -1,6 +1,5 @@
 # Power Design Explanation
 
-- TODO: create a power tree diagram using these markdown notes
 - Notes regarding motherboard power design choices and specs.
 
 ## Index
@@ -32,12 +31,6 @@
 
 ## 12V Wheel Motor Power
 
-- TODO:
-  - Right now we have a regulator between the 2S LiPo battery and the TB6561FG motor driver
-  - ...It's better to just toss the regulator and directly hook the battery to a modern motor driver
-  - Low voltage is fine- current draw is more important
-  - Something like this:
-    - DRV8833: https://www.digikey.com/en/products/detail/texas-instruments/DRV8833RTYR/2741823
 - ServoCity's [Premium N20 Gear Motor (5:1 Ratio, 4900 RPM, with Encoder)](https://www.servocity.com/4900-rpm-micro-gear-motor-w-encoder/)
   - Demands 1.6A on stall, and 12V nominal
   - ![servocity-encoder-current](_images/power-explanation/servocity-encoder-current.png)
@@ -45,14 +38,9 @@
   - 1.6A * 2 + 10mA * 2 = 3.220A needed
     - ...But this is if we want to consistently support stall current
     - Nominal is much less, at 120mA per motor- there's no need to provide the full 1.6A per motor
-- Comparator
-  - +12V is used to power the OpAmp in comparator configuration for battery management too
-  - ![TLV9301-current](_images/power-explanation/TLV9301-current.png)
-  - ...Negligible current draw
 - Regulator selection
   - TI generated circuit tool: https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=AA12043C39DD7B4B
   - 12V, 3A circuit
-  - Again, we shouldn't need this, but for now this is what we use
 
 ## 3V3 Power
 
@@ -109,10 +97,6 @@
   - LiPo batteries' capacity multiplier tells us how much current the battery can safely discharge continuously
     - 900 mAh 30C means 27A max current draw
     - 900 mAh at 6A current draw means 9 minutes of activity
-- Rocker switch
-  - Many rocker switches don't provide DC current limits for such high currents- this is because arching is common for high DC current
-  - We should be using a small switch to drive a MOSFET/BJT instead
-  - We're going for a switch that safely operates w/ 15A AC for now
 
 ```
 Total current dischargeable calculation:
@@ -128,24 +112,28 @@ Micromouse active time calculation:
 
 - Enable signal
   - Every switching regulator, except the 3V3 regulator, has an enable signal that can be toggled by the MCU
-- Op-Amp in comparator configuration
-  - Minimal circuit w/ 1 IC and resistors
-  - Takes input battery voltage, and compares it to desired low battery voltage
-  - Output result of comparator must be scaled to match MCU high/low logic
-    - Voltage divider calculator: https://ohmslawcalculator.com/voltage-divider-calculator
-  - 3.74k Ohm resistor chosen for R2 to get 3.2V max from comparator output
-  - 2S LiPo batteries are considered low battery when they reach 6.4V-6.6V, so low voltage of 6.5V chosen
-  - 100k and 118k resistors chosen for R1 and R2 to get 6.49V on 2nd comparator input
+- Battery voltage comparators
+  - Two comparator ICs installed to catch the battery violate warning and failure threshold violations
+  - Each of the comparators light up an indicator LED when thresholds are crossed
+  - The failure comparator output is AND'ed w/ a small rocker switch output to drive mouse on/off PMOS- mouse only turns on if battery is OK and rocker switch is in "on" position
 
 ```
-Voltage divider for 2nd low battery compare signal
-12V input, 100k for R1 (from example schematic on op-amp datasheet), 6.5V output
-R2 = 118k
 
-Voltage divider for result signal:
-12V input, 10k for R1 (arbitrarily recycled resistor), 3.3V output
-Vout = Vin * (R2 / (R2 + R1))
-R2 = 3.793k
+battery warning threshold comparator voltage divider:
+- R1 = 470k, R2 = 100k
+Vnode = Vbat * (100 / (470 / 100)) = 0.175 * Vbat
+1.242V reference / 0.175 = 7.1V warning threshold
+
+battery failure threshold comparator voltage divider:
+- R1 = 430k, R2 = 100k
+Vnode = Vbat * (100 / (430 / 100)) = 0.189 * Vbat
+1.242V reference / 0.189 = 6.57V failure threshold
+
+comparator input bias current:
+divider current >= 100 * bias current
+7V / 530k = 12uA
+comparator input bias is 5nA worst case, where 12uA / 5nA = 2400 times higher, so all clear
+
 ```
 
 ## PCB Traces
@@ -155,6 +143,14 @@ R2 = 3.793k
 
 ## Electrical Protection
 
+- TVS clamping diode
+  - "transient voltage suppression" diode installed across entire mouse / battery to clamp
+  - 10V reverse standoff, 11.1V breakdown, 35.3A, 600W diode clamps any spikes
+- PMOS high-side "power pak" load switch
+  - Load switch to the entire mouse for smooth on/off, reverse polarity protection
+  - Handles up to -20V Vds max, 35A
+  - This allows us to avoid a physical high DC current switches to turn on the whole mouse
+  - Zener diode installed from source to gate to clamp up to 12V on Vgs
 - Battery to regulator input diode
   - IEEE Berkely mentions they encountered an issue w/ current flowing from MCU to regulator: https://ieee.berkeley.edu/micromouse-lab-5/
   - Added to prevent reverse current from regulator to battery
@@ -182,7 +178,7 @@ R2 = 3.793k
   - 10A fuse for entire mouse, provided a rough 6A consumption max
   - 125% of circuit's normal operating current is good rule of thumb
 - Bulk capacitor
-  - 1.2mF 16V bulk capacitor for entire mouse
+  - 470uF 25V bulk capacitor x2 for entire mouse
   - Good rule of thumb is:
     - 100uF per A of max load current for general cases
     - 200~470uF per A for high-power and noisier circuits
