@@ -5,8 +5,6 @@
 ## Index
 
 - [Selection: ServoCity's Premium N20 Gear Motor](#selection-servocitys-premium-n20-gear-motor)
-- [4 Wheel Drive](#4-wheel-drive)
-- [Wheel Bearing Spacers](#wheel-bearing-spacers)
 - [Drive Circuit](#drive-circuit)
 - [Electrical Protection](#electrical-protection)
 - [Mechanical Micromouse Specs](#mechanical-micromouse-specs)
@@ -23,23 +21,6 @@
   - Quadrature encoder w/ A & B signals
   - 1.6A current draw on stall
   - Brushed DC motor
-
-## 4 Wheel Drive
-
-- Decimus 4
-  - https://micromouseonline.com/2012/05/16/shapeways-motor-mounts-arrive/
-  - https://micromouseonline.com/2012/05/24/printed-wheels-complete-decimus-mechanicals/
-  - The key is to use ball bearings, spacers, and a screw for a shaft for the wheels to rotate
-  - M3 screws and 3mm diameter ball bearings are used for Mouse Unit 07
-- Designing gears
-  - The key is to design wheels w/ gears on them
-  - More details in mechanical design guide
-
-## Wheel Bearing Spacers
-
-- ![ball-bearing](_images/wheel-and-motor-explanation/ball-bearing.png)
-- Needed to prevent outer ring of ball-bearings from touching 3D printed mounts and screw heads
-- Crucial that they're made of metal- tried to 3D print spacers, but they eventually mold into the shapes of the parts they're spaced between
 
 ## Drive Circuit
 

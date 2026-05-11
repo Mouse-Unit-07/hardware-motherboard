@@ -5,5 +5,4 @@
   - Schematic pdf's
   - Layout pdf's
   - Mechanical drawing pdf's
-  - 3D model files for motherboard mounts, etc
   - Design explanation documentation
