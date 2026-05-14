@@ -112,27 +112,23 @@ Micromouse active time calculation:
 
 - Enable signal
   - Every switching regulator, except the 3V3 regulator, has an enable signal that can be toggled by the MCU
-- Battery voltage comparators
-  - Two comparator ICs installed to catch the battery violate warning and failure threshold violations
+- Battery voltage comparator
+  - LM393 dual comparator IC installed for low battery voltage (warning and failure) detection
+  - TL431 2.495V voltage reference used for each comparator
   - Each of the comparators light up an indicator LED when thresholds are crossed
   - The failure comparator output is AND'ed w/ a small rocker switch output to drive mouse on/off PMOS- mouse only turns on if battery is OK and rocker switch is in "on" position
 
 ```
 
 battery warning threshold comparator voltage divider:
-- R1 = 470k, R2 = 100k
-Vnode = Vbat * (100 / (470 / 100)) = 0.175 * Vbat
-1.242V reference / 0.175 = 7.1V warning threshold
+- R1 = 180k, R2 = 100k
+Vnode = Vbat * (100 / (180 / 100)) = 0.357 * Vbat
+2.495V reference / 0.357 = 6.9V warning threshold
 
 battery failure threshold comparator voltage divider:
-- R1 = 430k, R2 = 100k
-Vnode = Vbat * (100 / (430 / 100)) = 0.189 * Vbat
-1.242V reference / 0.189 = 6.57V failure threshold
-
-comparator input bias current:
-divider current >= 100 * bias current
-7V / 530k = 12uA
-comparator input bias is 5nA worst case, where 12uA / 5nA = 2400 times higher, so all clear
+- R1 = 160k, R2 = 100k
+Vnode = Vbat * (100 / (160 / 100)) = 0.384 * Vbat
+2.495V reference / 0.384 = 6.487V failure threshold
 
 ```
 
