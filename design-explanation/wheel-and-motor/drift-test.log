@@ -1,0 +1,1037 @@
+test wheel-encoder command parameters:
+target        Run wheel encoder target test
+              (required): timeout_ms, drift_delay_ms, encoder_target, start_speed, end_speed, speed_step
+drift         Run wheel motor drift test
+              (required): timeout_ms, drift_delay_ms, encoder_target, start_speed, end_speed, speed_step
+deceleration  Run wheel encoder deceleration test
+              (required): timeout_ms, drift_delay_ms, encoder_target, start_speed, top_speed, max_accel_decel_percent
+running wheel encoder drift test...100 0 255 1
+encoder target for each run: 100
+moving motors forward
+speed: 0
+enc1=0, enc2=0, 2001ms
+speed: 1
+enc1=0, enc2=0, 2001ms
+speed: 2
+enc1=0, enc2=0, 2001ms
+speed: 3
+enc1=0, enc2=0, 2001ms
+speed: 4
+enc1=0, enc2=0, 2001ms
+speed: 5
+enc1=0, enc2=0, 2001ms
+speed: 6
+enc1=0, enc2=0, 2001ms
+speed: 7
+enc1=0, enc2=0, 2001ms
+speed: 8
+enc1=0, enc2=0, 2001ms
+speed: 9
+enc1=0, enc2=0, 2001ms
+speed: 10
+enc1=0, enc2=0, 2001ms
+speed: 11
+enc1=0, enc2=0, 2001ms
+speed: 12
+enc1=0, enc2=0, 2001ms
+speed: 13
+enc1=0, enc2=0, 2001ms
+speed: 14
+enc1=0, enc2=0, 2001ms
+speed: 15
+enc1=0, enc2=0, 2001ms
+speed: 16
+enc1=0, enc2=0, 2001ms
+speed: 17
+enc1=0, enc2=0, 2001ms
+speed: 18
+enc1=0, enc2=0, 2001ms
+speed: 19
+enc1=0, enc2=0, 2001ms
+speed: 20
+enc1=0, enc2=0, 2001ms
+speed: 21
+enc1=0, enc2=0, 2001ms
+speed: 22
+enc1=0, enc2=0, 2001ms
+speed: 23
+enc1=0, enc2=0, 2001ms
+speed: 24
+enc1=0, enc2=0, 2001ms
+speed: 25
+enc1=0, enc2=0, 2001ms
+speed: 26
+enc1=0, enc2=0, 2001ms
+speed: 27
+enc1=0, enc2=0, 2001ms
+speed: 28
+enc1=0, enc2=0, 2001ms
+speed: 29
+enc1=0, enc2=0, 2001ms
+speed: 30
+enc1=0, enc2=0, 2001ms
+speed: 31
+enc1=3, enc2=4, 2001ms
+speed: 32
+enc1=0, enc2=0, 2001ms
+speed: 33
+enc1=16, enc2=18, 2001ms
+speed: 34
+enc1=0, enc2=0, 2001ms
+speed: 35
+enc1=0, enc2=0, 2001ms
+speed: 36
+enc1=0, enc2=0, 2001ms
+speed: 37
+enc1=0, enc2=0, 2001ms
+speed: 38
+enc1=0, enc2=0, 2001ms
+speed: 39
+enc1=1, enc2=0, 2001ms
+speed: 40
+enc1=0, enc2=0, 2001ms
+speed: 41
+enc1=0, enc2=0, 2001ms
+speed: 42
+enc1=0, enc2=0, 2001ms
+speed: 43
+enc1=99, enc2=103, 1227ms
+speed: 44
+enc1=97, enc2=102, 1072ms
+speed: 45
+enc1=100, enc2=104, 1028ms
+speed: 46
+enc1=100, enc2=104, 994ms
+speed: 47
+enc1=100, enc2=104, 943ms
+speed: 48
+enc1=101, enc2=105, 914ms
+speed: 49
+enc1=99, enc2=105, 923ms
+speed: 50
+enc1=100, enc2=105, 849ms
+speed: 51
+enc1=99, enc2=106, 840ms
+speed: 52
+enc1=102, enc2=106, 817ms
+speed: 53
+enc1=102, enc2=106, 796ms
+speed: 54
+enc1=103, enc2=105, 761ms
+speed: 55
+enc1=102, enc2=106, 749ms
+speed: 56
+enc1=103, enc2=107, 717ms
+speed: 57
+enc1=102, enc2=107, 703ms
+speed: 58
+enc1=0, enc2=50, 2001ms
+speed: 59
+enc1=2, enc2=49, 2001ms
+speed: 60
+enc1=104, enc2=108, 653ms
+speed: 61
+enc1=103, enc2=108, 639ms
+speed: 62
+enc1=104, enc2=109, 626ms
+speed: 63
+enc1=105, enc2=109, 610ms
+speed: 64
+enc1=106, enc2=109, 603ms
+speed: 65
+enc1=106, enc2=109, 588ms
+speed: 66
+enc1=104, enc2=110, 593ms
+speed: 67
+enc1=106, enc2=110, 572ms
+speed: 68
+enc1=105, enc2=110, 571ms
+speed: 69
+enc1=106, enc2=110, 547ms
+speed: 70
+enc1=106, enc2=111, 546ms
+speed: 71
+enc1=109, enc2=111, 534ms
+speed: 72
+enc1=107, enc2=112, 522ms
+speed: 73
+enc1=108, enc2=112, 515ms
+speed: 74
+enc1=109, enc2=113, 504ms
+speed: 75
+enc1=110, enc2=114, 503ms
+speed: 76
+enc1=110, enc2=113, 493ms
+speed: 77
+enc1=110, enc2=113, 481ms
+speed: 78
+enc1=109, enc2=114, 479ms
+speed: 79
+enc1=111, enc2=115, 474ms
+speed: 80
+enc1=111, enc2=114, 464ms
+speed: 81
+enc1=110, enc2=115, 457ms
+speed: 82
+enc1=111, enc2=115, 454ms
+speed: 83
+enc1=110, enc2=116, 446ms
+speed: 84
+enc1=113, enc2=115, 442ms
+speed: 85
+enc1=111, enc2=116, 433ms
+speed: 86
+enc1=112, enc2=115, 429ms
+speed: 87
+enc1=114, enc2=117, 426ms
+speed: 88
+enc1=113, enc2=117, 419ms
+speed: 89
+enc1=113, enc2=117, 413ms
+speed: 90
+enc1=112, enc2=116, 411ms
+speed: 91
+enc1=114, enc2=117, 404ms
+speed: 92
+enc1=113, enc2=118, 401ms
+speed: 93
+enc1=111, enc2=117, 400ms
+speed: 94
+enc1=114, enc2=117, 396ms
+speed: 95
+enc1=115, enc2=118, 390ms
+speed: 96
+enc1=115, enc2=119, 385ms
+speed: 97
+enc1=115, enc2=119, 379ms
+speed: 98
+enc1=115, enc2=120, 378ms
+speed: 99
+enc1=117, enc2=120, 373ms
+speed: 100
+enc1=117, enc2=120, 369ms
+speed: 101
+enc1=116, enc2=120, 366ms
+speed: 102
+enc1=118, enc2=120, 364ms
+speed: 103
+enc1=117, enc2=120, 358ms
+speed: 104
+enc1=115, enc2=121, 356ms
+speed: 105
+enc1=118, enc2=121, 354ms
+speed: 106
+enc1=118, enc2=121, 349ms
+speed: 107
+enc1=116, enc2=121, 345ms
+speed: 108
+enc1=118, enc2=122, 343ms
+speed: 109
+enc1=119, enc2=122, 341ms
+speed: 110
+enc1=119, enc2=123, 338ms
+speed: 111
+enc1=120, enc2=123, 335ms
+speed: 112
+enc1=120, enc2=123, 333ms
+speed: 113
+enc1=119, enc2=124, 330ms
+speed: 114
+enc1=121, enc2=125, 327ms
+speed: 115
+enc1=122, enc2=124, 325ms
+speed: 116
+enc1=120, enc2=124, 323ms
+speed: 117
+enc1=120, enc2=124, 320ms
+speed: 118
+enc1=121, enc2=124, 316ms
+speed: 119
+enc1=122, enc2=125, 315ms
+speed: 120
+enc1=121, enc2=125, 313ms
+speed: 121
+enc1=121, enc2=125, 310ms
+speed: 122
+enc1=122, enc2=126, 307ms
+speed: 123
+enc1=120, enc2=125, 305ms
+speed: 124
+enc1=122, enc2=126, 302ms
+speed: 125
+enc1=123, enc2=127, 301ms
+speed: 126
+enc1=124, enc2=127, 300ms
+speed: 127
+enc1=123, enc2=128, 297ms
+speed: 128
+enc1=123, enc2=127, 295ms
+speed: 129
+enc1=123, enc2=128, 292ms
+speed: 130
+enc1=124, enc2=127, 291ms
+speed: 131
+enc1=122, enc2=126, 289ms
+speed: 132
+enc1=124, enc2=128, 288ms
+speed: 133
+enc1=125, enc2=129, 286ms
+speed: 134
+enc1=125, enc2=129, 285ms
+speed: 135
+enc1=127, enc2=130, 282ms
+speed: 136
+enc1=126, enc2=129, 280ms
+speed: 137
+enc1=126, enc2=129, 278ms
+speed: 138
+enc1=127, enc2=131, 277ms
+speed: 139
+enc1=126, enc2=130, 275ms
+speed: 140
+enc1=127, enc2=131, 273ms
+speed: 141
+enc1=125, enc2=130, 271ms
+speed: 142
+enc1=127, enc2=132, 269ms
+speed: 143
+enc1=128, enc2=131, 268ms
+speed: 144
+enc1=128, enc2=131, 268ms
+speed: 145
+enc1=126, enc2=131, 265ms
+speed: 146
+enc1=128, enc2=131, 265ms
+speed: 147
+enc1=129, enc2=132, 263ms
+speed: 148
+enc1=130, enc2=132, 262ms
+speed: 149
+enc1=131, enc2=133, 260ms
+speed: 150
+enc1=131, enc2=133, 259ms
+speed: 151
+enc1=131, enc2=134, 256ms
+speed: 152
+enc1=131, enc2=134, 255ms
+speed: 153
+enc1=131, enc2=135, 254ms
+speed: 154
+enc1=131, enc2=134, 253ms
+speed: 155
+enc1=130, enc2=134, 251ms
+speed: 156
+enc1=128, enc2=133, 249ms
+speed: 157
+enc1=132, enc2=134, 250ms
+speed: 158
+enc1=131, enc2=135, 246ms
+speed: 159
+enc1=134, enc2=135, 247ms
+speed: 160
+enc1=134, enc2=136, 247ms
+speed: 161
+enc1=133, enc2=135, 243ms
+speed: 162
+enc1=133, enc2=135, 241ms
+speed: 163
+enc1=132, enc2=136, 241ms
+speed: 164
+enc1=132, enc2=135, 239ms
+speed: 165
+enc1=134, enc2=135, 239ms
+speed: 166
+enc1=134, enc2=136, 238ms
+speed: 167
+enc1=131, enc2=137, 235ms
+speed: 168
+enc1=135, enc2=137, 236ms
+speed: 169
+enc1=136, enc2=137, 235ms
+speed: 170
+enc1=134, enc2=138, 232ms
+speed: 171
+enc1=135, enc2=139, 232ms
+speed: 172
+enc1=137, enc2=138, 232ms
+speed: 173
+enc1=136, enc2=139, 231ms
+speed: 174
+enc1=135, enc2=139, 229ms
+speed: 175
+enc1=134, enc2=138, 231ms
+speed: 176
+enc1=136, enc2=139, 227ms
+speed: 177
+enc1=136, enc2=137, 226ms
+speed: 178
+enc1=135, enc2=139, 226ms
+speed: 179
+enc1=136, enc2=139, 225ms
+speed: 180
+enc1=140, enc2=140, 224ms
+speed: 181
+enc1=137, enc2=140, 223ms
+speed: 182
+enc1=136, enc2=140, 221ms
+speed: 183
+enc1=139, enc2=140, 221ms
+speed: 184
+enc1=140, enc2=141, 221ms
+speed: 185
+enc1=138, enc2=140, 220ms
+speed: 186
+enc1=137, enc2=141, 217ms
+speed: 187
+enc1=137, enc2=141, 216ms
+speed: 188
+enc1=139, enc2=141, 216ms
+speed: 189
+enc1=142, enc2=141, 216ms
+speed: 190
+enc1=139, enc2=142, 214ms
+speed: 191
+enc1=139, enc2=142, 213ms
+speed: 192
+enc1=139, enc2=142, 212ms
+speed: 193
+enc1=143, enc2=142, 213ms
+speed: 194
+enc1=140, enc2=142, 211ms
+speed: 195
+enc1=138, enc2=142, 210ms
+speed: 196
+enc1=140, enc2=143, 208ms
+speed: 197
+enc1=141, enc2=142, 209ms
+speed: 198
+enc1=143, enc2=144, 208ms
+speed: 199
+enc1=143, enc2=143, 208ms
+speed: 200
+enc1=143, enc2=144, 206ms
+speed: 201
+enc1=139, enc2=143, 206ms
+speed: 202
+enc1=143, enc2=144, 206ms
+speed: 203
+enc1=144, enc2=144, 205ms
+speed: 204
+enc1=142, enc2=143, 202ms
+speed: 205
+enc1=144, enc2=144, 202ms
+speed: 206
+enc1=143, enc2=144, 202ms
+speed: 207
+enc1=143, enc2=143, 199ms
+speed: 208
+enc1=142, enc2=144, 199ms
+speed: 209
+enc1=143, enc2=145, 199ms
+speed: 210
+enc1=144, enc2=145, 200ms
+speed: 211
+enc1=147, enc2=145, 199ms
+speed: 212
+enc1=145, enc2=145, 197ms
+speed: 213
+enc1=143, enc2=143, 196ms
+speed: 214
+enc1=143, enc2=144, 194ms
+speed: 215
+enc1=144, enc2=145, 194ms
+speed: 216
+enc1=148, enc2=147, 195ms
+speed: 217
+enc1=146, enc2=146, 194ms
+speed: 218
+enc1=147, enc2=146, 194ms
+speed: 219
+enc1=146, enc2=146, 193ms
+speed: 220
+enc1=148, enc2=146, 191ms
+speed: 221
+enc1=145, enc2=144, 189ms
+speed: 222
+enc1=146, enc2=146, 191ms
+speed: 223
+enc1=147, enc2=146, 189ms
+speed: 224
+enc1=148, enc2=147, 188ms
+speed: 225
+enc1=146, enc2=143, 187ms
+speed: 226
+enc1=148, enc2=145, 188ms
+speed: 227
+enc1=149, enc2=147, 187ms
+speed: 228
+enc1=149, enc2=149, 185ms
+speed: 229
+enc1=148, enc2=147, 184ms
+speed: 230
+enc1=147, enc2=145, 183ms
+speed: 231
+enc1=148, enc2=144, 180ms
+speed: 232
+enc1=149, enc2=146, 182ms
+speed: 233
+enc1=149, enc2=146, 182ms
+speed: 234
+enc1=150, enc2=145, 181ms
+speed: 235
+enc1=150, enc2=146, 180ms
+speed: 236
+enc1=148, enc2=148, 180ms
+speed: 237
+enc1=150, enc2=147, 179ms
+speed: 238
+enc1=150, enc2=147, 178ms
+speed: 239
+enc1=150, enc2=146, 178ms
+speed: 240
+enc1=150, enc2=147, 177ms
+speed: 241
+enc1=150, enc2=146, 176ms
+speed: 242
+enc1=151, enc2=147, 175ms
+speed: 243
+enc1=150, enc2=145, 175ms
+speed: 244
+enc1=151, enc2=147, 175ms
+speed: 245
+enc1=150, enc2=145, 173ms
+speed: 246
+enc1=150, enc2=147, 171ms
+speed: 247
+enc1=150, enc2=145, 172ms
+speed: 248
+enc1=149, enc2=147, 171ms
+speed: 249
+enc1=150, enc2=146, 168ms
+speed: 250
+enc1=149, enc2=146, 168ms
+speed: 251
+enc1=150, enc2=144, 167ms
+speed: 252
+enc1=150, enc2=143, 167ms
+speed: 253
+enc1=150, enc2=146, 168ms
+speed: 254
+enc1=150, enc2=146, 166ms
+speed: 255
+enc1=150, enc2=143, 155ms
+moving motors backward
+speed: 0
+enc1=0, enc2=0, 2001ms
+speed: 1
+enc1=0, enc2=0, 2001ms
+speed: 2
+enc1=0, enc2=0, 2001ms
+speed: 3
+enc1=0, enc2=0, 2001ms
+speed: 4
+enc1=0, enc2=0, 2001ms
+speed: 5
+enc1=0, enc2=0, 2001ms
+speed: 6
+enc1=0, enc2=0, 2001ms
+speed: 7
+enc1=0, enc2=0, 2001ms
+speed: 8
+enc1=0, enc2=0, 2001ms
+speed: 9
+enc1=0, enc2=0, 2001ms
+speed: 10
+enc1=0, enc2=0, 2001ms
+speed: 11
+enc1=0, enc2=0, 2001ms
+speed: 12
+enc1=0, enc2=0, 2001ms
+speed: 13
+enc1=0, enc2=0, 2001ms
+speed: 14
+enc1=0, enc2=0, 2001ms
+speed: 15
+enc1=0, enc2=0, 2001ms
+speed: 16
+enc1=0, enc2=0, 2001ms
+speed: 17
+enc1=0, enc2=0, 2001ms
+speed: 18
+enc1=0, enc2=0, 2001ms
+speed: 19
+enc1=0, enc2=0, 2001ms
+speed: 20
+enc1=0, enc2=0, 2001ms
+speed: 21
+enc1=0, enc2=0, 2001ms
+speed: 22
+enc1=0, enc2=0, 2001ms
+speed: 23
+enc1=0, enc2=0, 2001ms
+speed: 24
+enc1=0, enc2=0, 2001ms
+speed: 25
+enc1=0, enc2=0, 2001ms
+speed: 26
+enc1=0, enc2=0, 2001ms
+speed: 27
+enc1=0, enc2=0, 2001ms
+speed: 28
+enc1=-1, enc2=0, 2001ms
+speed: 29
+enc1=0, enc2=0, 2001ms
+speed: 30
+enc1=0, enc2=0, 2001ms
+speed: 31
+enc1=0, enc2=0, 2001ms
+speed: 32
+enc1=-81, enc2=-87, 2001ms
+speed: 33
+enc1=-6, enc2=-9, 2001ms
+speed: 34
+enc1=0, enc2=0, 2001ms
+speed: 35
+enc1=0, enc2=0, 2001ms
+speed: 36
+enc1=0, enc2=-101, 1994ms
+speed: 37
+enc1=0, enc2=-1, 2001ms
+speed: 38
+enc1=0, enc2=0, 2001ms
+speed: 39
+enc1=0, enc2=0, 2001ms
+speed: 40
+enc1=-1, enc2=-3, 2001ms
+speed: 41
+enc1=0, enc2=0, 2001ms
+speed: 42
+enc1=-100, enc2=-104, 1395ms
+speed: 43
+enc1=-99, enc2=-104, 974ms
+speed: 44
+enc1=-99, enc2=-104, 981ms
+speed: 45
+enc1=-98, enc2=-104, 901ms
+speed: 46
+enc1=-99, enc2=-104, 935ms
+speed: 47
+enc1=-99, enc2=-104, 866ms
+speed: 48
+enc1=-100, enc2=-105, 856ms
+speed: 49
+enc1=-101, enc2=-105, 807ms
+speed: 50
+enc1=-101, enc2=-106, 803ms
+speed: 51
+enc1=-102, enc2=-106, 772ms
+speed: 52
+enc1=-101, enc2=-106, 773ms
+speed: 53
+enc1=-102, enc2=-107, 716ms
+speed: 54
+enc1=-102, enc2=-107, 729ms
+speed: 55
+enc1=-101, enc2=-108, 700ms
+speed: 56
+enc1=-102, enc2=-108, 695ms
+speed: 57
+enc1=-102, enc2=-108, 661ms
+speed: 58
+enc1=-104, enc2=-108, 655ms
+speed: 59
+enc1=-103, enc2=-108, 638ms
+speed: 60
+enc1=-104, enc2=-109, 632ms
+speed: 61
+enc1=-104, enc2=-108, 608ms
+speed: 62
+enc1=-105, enc2=-109, 606ms
+speed: 63
+enc1=-104, enc2=-109, 577ms
+speed: 64
+enc1=-104, enc2=-110, 574ms
+speed: 65
+enc1=-106, enc2=-111, 562ms
+speed: 66
+enc1=-105, enc2=-111, 563ms
+speed: 67
+enc1=-105, enc2=-110, 545ms
+speed: 68
+enc1=-107, enc2=-112, 543ms
+speed: 69
+enc1=-108, enc2=-112, 527ms
+speed: 70
+enc1=-107, enc2=-112, 525ms
+speed: 71
+enc1=-108, enc2=-112, 513ms
+speed: 72
+enc1=-109, enc2=-113, 513ms
+speed: 73
+enc1=-107, enc2=-112, 495ms
+speed: 74
+enc1=-107, enc2=-113, 489ms
+speed: 75
+enc1=-108, enc2=-113, 478ms
+speed: 76
+enc1=-107, enc2=-114, 482ms
+speed: 77
+enc1=-108, enc2=-114, 468ms
+speed: 78
+enc1=-109, enc2=-114, 466ms
+speed: 79
+enc1=-110, enc2=-115, 458ms
+speed: 80
+enc1=-111, enc2=-115, 464ms
+speed: 81
+enc1=-110, enc2=-116, 443ms
+speed: 82
+enc1=-111, enc2=-116, 444ms
+speed: 83
+enc1=-111, enc2=-116, 435ms
+speed: 84
+enc1=-112, enc2=-116, 436ms
+speed: 85
+enc1=-111, enc2=-117, 422ms
+speed: 86
+enc1=-109, enc2=-117, 426ms
+speed: 87
+enc1=-111, enc2=-116, 413ms
+speed: 88
+enc1=-113, enc2=-117, 417ms
+speed: 89
+enc1=-113, enc2=-118, 405ms
+speed: 90
+enc1=-114, enc2=-118, 408ms
+speed: 91
+enc1=-113, enc2=-118, 396ms
+speed: 92
+enc1=-113, enc2=-118, 396ms
+speed: 93
+enc1=-114, enc2=-119, 386ms
+speed: 94
+enc1=-114, enc2=-119, 390ms
+speed: 95
+enc1=-115, enc2=-120, 380ms
+speed: 96
+enc1=-115, enc2=-120, 382ms
+speed: 97
+enc1=-114, enc2=-120, 374ms
+speed: 98
+enc1=-115, enc2=-120, 373ms
+speed: 99
+enc1=-114, enc2=-121, 365ms
+speed: 100
+enc1=-116, enc2=-121, 367ms
+speed: 101
+enc1=-116, enc2=-121, 362ms
+speed: 102
+enc1=-117, enc2=-122, 359ms
+speed: 103
+enc1=-116, enc2=-122, 356ms
+speed: 104
+enc1=-116, enc2=-122, 353ms
+speed: 105
+enc1=-117, enc2=-122, 349ms
+speed: 106
+enc1=-118, enc2=-123, 348ms
+speed: 107
+enc1=-119, enc2=-123, 343ms
+speed: 108
+enc1=-118, enc2=-123, 344ms
+speed: 109
+enc1=-114, enc2=-124, 342ms
+speed: 110
+enc1=-119, enc2=-124, 337ms
+speed: 111
+enc1=-112, enc2=-124, 333ms
+speed: 112
+enc1=-117, enc2=-124, 331ms
+speed: 113
+enc1=-116, enc2=-124, 323ms
+speed: 114
+enc1=-119, enc2=-124, 329ms
+speed: 115
+enc1=-117, enc2=-126, 321ms
+speed: 116
+enc1=-120, enc2=-125, 320ms
+speed: 117
+enc1=-120, enc2=-125, 316ms
+speed: 118
+enc1=-121, enc2=-125, 319ms
+speed: 119
+enc1=-122, enc2=-127, 310ms
+speed: 120
+enc1=-119, enc2=-126, 311ms
+speed: 121
+enc1=-121, enc2=-128, 306ms
+speed: 122
+enc1=-123, enc2=-127, 307ms
+speed: 123
+enc1=-121, enc2=-128, 304ms
+speed: 124
+enc1=-123, enc2=-127, 303ms
+speed: 125
+enc1=-121, enc2=-129, 298ms
+speed: 126
+enc1=-122, enc2=-128, 297ms
+speed: 127
+enc1=-122, enc2=-127, 295ms
+speed: 128
+enc1=-125, enc2=-128, 299ms
+speed: 129
+enc1=-121, enc2=-128, 291ms
+speed: 130
+enc1=-126, enc2=-129, 294ms
+speed: 131
+enc1=-123, enc2=-130, 285ms
+speed: 132
+enc1=-123, enc2=-129, 287ms
+speed: 133
+enc1=-124, enc2=-129, 283ms
+speed: 134
+enc1=-124, enc2=-130, 283ms
+speed: 135
+enc1=-125, enc2=-129, 278ms
+speed: 136
+enc1=-125, enc2=-131, 280ms
+speed: 137
+enc1=-126, enc2=-130, 278ms
+speed: 138
+enc1=-126, enc2=-131, 277ms
+speed: 139
+enc1=-124, enc2=-129, 272ms
+speed: 140
+enc1=-128, enc2=-132, 274ms
+speed: 141
+enc1=-122, enc2=-130, 269ms
+speed: 142
+enc1=-128, enc2=-132, 272ms
+speed: 143
+enc1=-128, enc2=-133, 266ms
+speed: 144
+enc1=-127, enc2=-132, 267ms
+speed: 145
+enc1=-128, enc2=-134, 262ms
+speed: 146
+enc1=-128, enc2=-133, 265ms
+speed: 147
+enc1=-129, enc2=-134, 260ms
+speed: 148
+enc1=-130, enc2=-133, 261ms
+speed: 149
+enc1=-127, enc2=-135, 256ms
+speed: 150
+enc1=-126, enc2=-133, 255ms
+speed: 151
+enc1=-127, enc2=-134, 254ms
+speed: 152
+enc1=-130, enc2=-135, 255ms
+speed: 153
+enc1=-131, enc2=-136, 251ms
+speed: 154
+enc1=-126, enc2=-134, 251ms
+speed: 155
+enc1=-129, enc2=-137, 248ms
+speed: 156
+enc1=-129, enc2=-134, 248ms
+speed: 157
+enc1=-132, enc2=-136, 246ms
+speed: 158
+enc1=-133, enc2=-136, 247ms
+speed: 159
+enc1=-132, enc2=-136, 243ms
+speed: 160
+enc1=-133, enc2=-136, 245ms
+speed: 161
+enc1=-132, enc2=-137, 240ms
+speed: 162
+enc1=-134, enc2=-135, 241ms
+speed: 163
+enc1=-127, enc2=-138, 238ms
+speed: 164
+enc1=-132, enc2=-137, 237ms
+speed: 165
+enc1=-128, enc2=-134, 235ms
+speed: 166
+enc1=-130, enc2=-136, 235ms
+speed: 167
+enc1=-130, enc2=-139, 233ms
+speed: 168
+enc1=-133, enc2=-138, 233ms
+speed: 169
+enc1=-133, enc2=-138, 230ms
+speed: 170
+enc1=-130, enc2=-138, 229ms
+speed: 171
+enc1=-133, enc2=-139, 227ms
+speed: 172
+enc1=-130, enc2=-138, 228ms
+speed: 173
+enc1=-135, enc2=-139, 228ms
+speed: 174
+enc1=-131, enc2=-139, 223ms
+speed: 175
+enc1=-135, enc2=-140, 225ms
+speed: 176
+enc1=-131, enc2=-138, 222ms
+speed: 177
+enc1=-135, enc2=-139, 223ms
+speed: 178
+enc1=-131, enc2=-139, 219ms
+speed: 179
+enc1=-136, enc2=-140, 219ms
+speed: 180
+enc1=-128, enc2=-137, 214ms
+speed: 181
+enc1=-133, enc2=-139, 217ms
+speed: 182
+enc1=-134, enc2=-140, 215ms
+speed: 183
+enc1=-134, enc2=-141, 214ms
+speed: 184
+enc1=-131, enc2=-139, 213ms
+speed: 185
+enc1=-134, enc2=-141, 215ms
+speed: 186
+enc1=-131, enc2=-140, 212ms
+speed: 187
+enc1=-135, enc2=-142, 211ms
+speed: 188
+enc1=-136, enc2=-140, 210ms
+speed: 189
+enc1=-136, enc2=-141, 209ms
+speed: 190
+enc1=-138, enc2=-140, 209ms
+speed: 191
+enc1=-135, enc2=-142, 206ms
+speed: 192
+enc1=-126, enc2=-138, 199ms
+speed: 193
+enc1=-136, enc2=-141, 205ms
+speed: 194
+enc1=-135, enc2=-141, 203ms
+speed: 195
+enc1=-138, enc2=-143, 205ms
+speed: 196
+enc1=-139, enc2=-141, 203ms
+speed: 197
+enc1=-135, enc2=-141, 200ms
+speed: 198
+enc1=-137, enc2=-141, 201ms
+speed: 199
+enc1=-138, enc2=-144, 199ms
+speed: 200
+enc1=-129, enc2=-141, 193ms
+speed: 201
+enc1=-140, enc2=-144, 200ms
+speed: 202
+enc1=-139, enc2=-141, 197ms
+speed: 203
+enc1=-134, enc2=-142, 194ms
+speed: 204
+enc1=-140, enc2=-142, 197ms
+speed: 205
+enc1=-140, enc2=-143, 195ms
+speed: 206
+enc1=-132, enc2=-141, 188ms
+speed: 207
+enc1=-140, enc2=-143, 193ms
+speed: 208
+enc1=-135, enc2=-140, 188ms
+speed: 209
+enc1=-137, enc2=-143, 189ms
+speed: 210
+enc1=-136, enc2=-143, 188ms
+speed: 211
+enc1=-140, enc2=-144, 190ms
+speed: 212
+enc1=-138, enc2=-142, 186ms
+speed: 213
+enc1=-139, enc2=-143, 187ms
+speed: 214
+enc1=-138, enc2=-142, 185ms
+speed: 215
+enc1=-138, enc2=-144, 185ms
+speed: 216
+enc1=-141, enc2=-143, 185ms
+speed: 217
+enc1=-138, enc2=-142, 182ms
+speed: 218
+enc1=-137, enc2=-141, 180ms
+speed: 219
+enc1=-139, enc2=-145, 179ms
+speed: 220
+enc1=-139, enc2=-142, 180ms
+speed: 221
+enc1=-140, enc2=-144, 180ms
+speed: 222
+enc1=-137, enc2=-143, 179ms
+speed: 223
+enc1=-135, enc2=-142, 175ms
+speed: 224
+enc1=-133, enc2=-140, 173ms
+speed: 225
+enc1=-142, enc2=-144, 178ms
+speed: 226
+enc1=-138, enc2=-140, 172ms
+speed: 227
+enc1=-136, enc2=-143, 171ms
+speed: 228
+enc1=-138, enc2=-141, 172ms
+speed: 229
+enc1=-134, enc2=-140, 171ms
+speed: 230
+enc1=-138, enc2=-143, 172ms
+speed: 231
+enc1=-140, enc2=-144, 170ms
+speed: 232
+enc1=-135, enc2=-136, 164ms
+speed: 233
+enc1=-135, enc2=-141, 166ms
+speed: 234
+enc1=-140, enc2=-144, 171ms
+speed: 235
+enc1=-140, enc2=-143, 168ms
+speed: 236
+enc1=-134, enc2=-141, 164ms
+speed: 237
+enc1=-140, enc2=-144, 164ms
+speed: 238
+enc1=-138, enc2=-141, 164ms
+speed: 239
+enc1=-138, enc2=-142, 163ms
+speed: 240
+enc1=-137, enc2=-141, 161ms
+speed: 241
+enc1=-140, enc2=-142, 161ms
+speed: 242
+enc1=-131, enc2=-138, 153ms
+speed: 243
+enc1=-139, enc2=-143, 160ms
+speed: 244
+enc1=-139, enc2=-141, 158ms
+speed: 245
+enc1=-136, enc2=-142, 155ms
+speed: 246
+enc1=-137, enc2=-139, 155ms
+speed: 247
+enc1=-137, enc2=-141, 154ms
+speed: 248
+enc1=-138, enc2=-141, 156ms
+speed: 249
+enc1=-139, enc2=-144, 156ms
+speed: 250
+enc1=-136, enc2=-141, 152ms
+speed: 251
+enc1=-137, enc2=-144, 150ms
+speed: 252
+enc1=-136, enc2=-139, 149ms
+speed: 253
+enc1=-137, enc2=-141, 150ms
+speed: 254
+enc1=-136, enc2=-142, 149ms
+speed: 255
+enc1=-138, enc2=-142, 138ms
+ending wheel encoder drift test...
+
