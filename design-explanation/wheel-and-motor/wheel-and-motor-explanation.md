@@ -5,6 +5,7 @@
 ## Index
 
 - [Selection: ServoCity's Premium N20 Gear Motor](#selection-servocitys-premium-n20-gear-motor)
+- [Motor Drift](#motor-drift)
 - [Drive Circuit](#drive-circuit)
 - [Electrical Protection](#electrical-protection)
 - [Mechanical Micromouse Specs](#mechanical-micromouse-specs)
@@ -21,6 +22,19 @@
   - Quadrature encoder w/ A & B signals
   - 1.6A current draw on stall
   - Brushed DC motor
+
+## Motor Drift
+
+- ServoCity's gear motors "drift" after the MCU pins signal a hard stop on the motors, just as any DC motor probably would
+- The faster the mouse is going, the more drift there is
+- Gradually accelerating/decelerating the mouse works, but fails at low speeds due to the motors needing a voltage jump on the PWM pin to overcome static friction
+- A drift test was conducted to characterize the drift w/ respect to the mouse's speed so drift can be accounted for when moving
+- A quick and dirty Python script was generated to analyze the results:
+  - For moving forward, we'll take the middle between the two motor equations is: `y = 0.24x -6.0`, where y = drift ticks and x = speed (0-255)
+  - ![enc1_forward_drift_plot](_images/enc1_forward_drift_plot.png)
+  - ![enc2_forward_drift_plot](_images/enc2_forward_drift_plot.png)
+  - ![enc1_backward_drift_plot](_images/enc1_backward_drift_plot.png)
+  - ![enc2_backward_drift_plot](_images/enc2_backward_drift_plot.png)
 
 ## Drive Circuit
 
